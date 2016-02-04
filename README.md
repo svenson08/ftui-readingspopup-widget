@@ -35,7 +35,7 @@ Attribute des Widgets
 - **data-device** : FHEM Device Name
 - **data-readinglist**: Liste der Editierbaren Readings. Dabei muss der Anzeigetext und das Reading angegeben sein. Wenn eine Auswahl statt eines Eingabefeldes erzeugt werden soll müssen mehrere Werte mit einem Kommagetrennt angegeben werden.
 ```html
-    data-readinglist='{"readingTitel":"<Anzeigetext>", "readingName":"<FHEM Reading aus dem Device>", "readingWerte":"<Wert1>,<Wert2>", "readingReadOnly":"true"}, {<Beliebige erweiterbar>}' : Liste der angezeigten Readings.
+    data-readinglist='{"readingTitel":"<Anzeigetext>", "readingName":"<FHEM Reading aus dem Device>", "readingWerte":"<Wert1>,<Wert2>", "readingReadOnly":"true"}, {<Beliebige erweiterbar>}'
 ```
 
 ####Optionale-Attribute:
