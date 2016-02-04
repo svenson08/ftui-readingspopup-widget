@@ -1,0 +1,96 @@
+/* wdtimer_widget default CSS */
+.popupreadings {
+    z-index: 1000;
+}
+.popupreadings_dialog {
+    height: 150px;
+    overflow: auto;
+    width: inherit !important;
+    text-align: center;
+}
+.popupreadings_reading{
+    padding: 5px;
+}
+.popupreadings_reading.error { background-color: #ff1a1a !important; }
+.popupreadings_infotext { margin: 10px; font-size: 15px; }
+.popupreadings_readingname { width: 40%; }
+.popupreadings_button {
+    padding: 0.5em;
+    margin-left: 0.3em;
+    text-decoration: none;
+    border: none;
+    font-weight: normal;
+    color: inherit;
+}
+.popupreadings_header {
+    text-align: center; 
+    width: 100%;
+    padding: 5px;
+    font-size: 1.4em;    
+}
+.popupreadings_header_icon {
+    float: left;
+    margin: 4px;
+}
+
+.popupreadings_footer {
+    width: 100%;
+    padding: 5px;
+    float: right;
+}
+.popupreadings_footer .ui-dialog-buttonset{
+    float: inherit;
+}
+
+.popupreadings_active {
+    float:left;
+    display: inline-block;
+    margin: 6px;
+}
+.popupreadings_shader {
+    position:absolute;
+    background-color:#000000;
+    opacity:0.5;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;    
+}
+.popupreadings_shader.popupreadings_readingslist { background-color:#ff1a1a; }
+
+/* ---------------------------------------------------- */
+/* wdtimer_widget Style "round" */
+.popupreadings_button.round { border-radius: 10px; }     
+.popupreadings_readinginput.round { border-radius: 10px; }     
+.popupreadings_header.round { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.popupreadings_footer.round { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+/* ---------------------------------------------------- */
+/* wdtimer_widget Style "square" */
+.popupreadings_dropdownvalues.square { border-radius: unset; }
+/* ---------------------------------------------------- */
+/* wdtimer_widget Theam "dark" */
+.popupreadings_button.dark:hover, .wdtimer_time.dark:hover, .wdtimer_cmd.dark:hover, .wdtimer_checkbox.dark:hover { background-color: #007fff; }
+.popupreadings_button.dark { color: #d1eeee; background-color: #393939; }
+.popupreadings_dialog.dark{ background-color: #2a2a2a; }
+.popupreadings_header.dark { background-color: #262626; color: #d1eeee; }
+.popupreadings_footer.dark { background-color: #262626; }
+.popupreadings_readingname.dark { color: #d1eeee; }
+.popupreadings_dropdownvalues.dark { background-color: #393939; color: #d1eeee; }
+.popupreadings_dropdownvalues.dark > option {background-color: #393939; color: #d1eeee;}
+.popupreadings_readinginput.dark { background-color: #393939; color: #d1eeee; }
+.popupreadings_infotext.dark { color: #d1eeee; }
+/* ---------------------------------------------------- */
+/* wdtimer_widget Theam "light" */
+.popupreadings_button.light:hover, .wdtimer_time.light:hover, .wdtimer_cmd.light:hover, .wdtimer_checkbox.light:hover { background-color: #007fff; }
+.popupreadings_button.light { color: #000000; background-color: #e3c7c7; border: 1px solid #e0e0e0; }
+.popupreadings_dialog.light{ background-color: #ffffff; }
+.popupreadings_header.light { background-color: #ffffff; color: #000000; border: 1px solid #e0e0e0; }
+.popupreadings_footer.light { background-color: #ffffff; border: 1px solid #e0e0e0; }
+.popupreadings_readingname.light { color: #000000; }
+.popupreadings_dropdownvalues.light { background-color: #e3c7c7; color: #000000; border: 1px solid #e0e0e0; }
+.popupreadings_dropdownvalues.light > option {background-color: #e3c7c7; color: #000000;}
+.popupreadings_readinginput.light { background-color: #e3c7c7; color: #000000; border: 1px solid #e0e0e0; }
+.popupreadings_infotext.light { color: #000000; }
+/* ---------------------------------------------------- */
+/* wdtimer_widget Theam "custom" */
+/* ---------------------------------------------------- */
